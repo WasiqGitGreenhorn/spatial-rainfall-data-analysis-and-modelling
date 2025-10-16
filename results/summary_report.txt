@@ -1,0 +1,32 @@
+=== Florida Rainfall & Elevation Analysis Summary ===
+
+Correlation between Rainfall and Elevation: 0.14
+
+Top 5 Wettest Counties (Avg Rainfall):
+  county  rainfall_avg
+ Liberty   1740.655000
+  Walton   1729.706667
+ Broward   1724.808333
+Franklin   1715.633333
+Escambia   1710.810000
+
+Counties with Largest Rainfall Change (2019→2024):
+
+🔼 Largest Increases:
+   county  rain_change
+   Holmes       494.83
+ Franklin       471.99
+Jefferson       447.36
+     Leon       419.89
+ Sarasota       383.39
+
+🔽 Largest Decreases:
+ county  rain_change
+Brevard      -258.31
+Osceola      -219.00
+ Orange      -138.52
+   Levy      -132.00
+  Dixie      -125.11
+
+Analysis completed successfully.
+All plots saved in /results folder.
