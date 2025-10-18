@@ -1,6 +1,6 @@
-# Florida Rainfall and Elevation Analysis
+# Spatial and Statistical Analysis of Rainfall and Elevation Patterns in Florida (2019-2024)
 
-This project combines GIS (Geographic Information Systems) and Python-based data analytics to analyze rainfall and elevation relationships across Florida counties between 2019 and 2024. It was completed as part of a CS50 Python project and serves as a practical portfolio piece showcasing geospatial data processing, visualization, and exploratory data analysis.
+This project combines GIS (Geographic Information Systems) and Python-based data analytics to analyze rainfall and elevation relationships across Florida counties between 2019 and 2024. It was completed as part of a personal project and serves as a practical portfolio piece showcasing geospatial data processing, visualization, and exploratory data analysis.
 
 ## 1. Project Overview
 
@@ -16,7 +16,7 @@ The following datasets were used in this project:
 
 ## 3. QGIS Workflow
 
-The GIS portion of the project was executed using QGIS 3.x. The steps below outline the full process:
+The GIS portion of the project was executed using QGIS 3.44.3. The steps below outline the full process:
 
 
 ### 1. **Load and Inspect Data**
@@ -89,24 +89,20 @@ After spatial preprocessing in QGIS, the data was exported as a CSV (`florida_ra
 ## 5. Repository Structure
 
 ```
-florida-rainfall-elevation/
+spatial-rainfall-data-analysis-and-modelling/
+│
+├── QGIS-Data/
+│
+├── QGIS_Outputs/
+│   └── rainfall_maps
 │
 ├── data/
-│   ├── gadm41_usa_2.shp
-│   ├── chirps_2019_2024.tif
-│   ├── dem_florida.tif
 │   └── florida_rainfall_elevation.csv
 │
-├── qgis_outputs/
-│   ├── rainfall_maps/
-│   └── elevation_maps/
-│
 ├── results/
-│   ├── correlation_plot.png
-│   ├── county_trends.png
-│   └── top10_trends.png
 │
-├── analysis.py
+├── scripts/
+│   └── analysis.py
 └── README.md
 ```
 
@@ -125,6 +121,6 @@ florida-rainfall-elevation/
 
 ## 8. Author
 
-Developed by Wasiq Attique as part of the CS50 Python Project.
+Developed by Wasiq Attique as part of a Portfolio Project.
 The project demonstrates practical geospatial data handling, visualization, and analytical techniques applicable to environmental and water resource engineering.
 
