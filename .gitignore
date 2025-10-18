@@ -1,0 +1,13 @@
+# Ignore temp and cache files
+__pycache__/
+*.aux.xml
+*.cpg
+*.dbf
+*.prj
+*.qgd
+*.shx
+*.zip
+*.tar
+*.tif
+*.tif.aux.xml
+*.pyc
